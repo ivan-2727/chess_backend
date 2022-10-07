@@ -1,7 +1,7 @@
 ### Chess app backend (Golang)
 
 Implements (hopefully) full functionality of a chess game, except en passant pawn capture and promotion to something except queen (pawn always turns into a queen at the last line). Check, checkmate, and stalemate are detected. 
-Run the app at localhost:8000: `go run main.go`
+Run the app at **localhost:8000**: `go run main.go`.
 Make a POST request with one move information via Postman with the following json body structure:
 ```
 {
